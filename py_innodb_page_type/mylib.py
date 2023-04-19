@@ -34,7 +34,7 @@ class myargv(object):
 			else:
 				self.tablespace = argv[0]
 				argv = argv[1:]
-		if self.parms.get('-h'):
+		if '-h' in self.parms:
 			print('Get InnoDB Page Info')
 			print('Usage: python py_innodb_page_info.py [OPTIONS] tablespace_file\n')
 			print('The following options may be given as the first argument:')
