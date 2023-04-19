@@ -1,4 +1,4 @@
-# david-mysql-tools
+# david-mysql-tools(Fit MySQL 8.0 & Python3)
 在源代码的基础上稍加修改使其适应python3和mysql8.0
 
 Modify the code to accommodate the mysql8.0  and python3, based on code.google.com/p/david-mysql-tools
